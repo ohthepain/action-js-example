@@ -7,7 +7,7 @@
   "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "ncc build src/main.js --license licenses.txt",
     "run": "node dist/main.js"
   },
   "repository": {
