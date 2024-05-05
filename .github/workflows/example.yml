@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: git@github.com:ohthepain/action-js-ts-example.git
+    - uses: ohthepain/action-js-ts-example
       with:
         who-to-greet: 'Mona the Octocat'
