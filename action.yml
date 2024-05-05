@@ -9,6 +9,5 @@ outputs:
   time:
     description: 'The time we greeted you'
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
-
+  using: 'node21'
+  main: 'dist/main.js'
