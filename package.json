@@ -1,14 +1,14 @@
 {
   "name": "action-js-ts-example",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Example of how to write a GitHub Action in Javascript/Typescript",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build src/main.js --license licenses.txt -o v1.1",
-    "run": "node dist/main.js"
+    "build": "ncc build src/index.js --license LICENSE -o v1.1",
+    "run": "node v1.1/index.js"
   },
   "repository": {
     "type": "git",
