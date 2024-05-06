@@ -6,7 +6,7 @@
   "type": "module",
   "module": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified!\" && exit 1",
     "build": "ncc build src/index.js --license LICENSE -o v1.1",
     "run": "node v1.1/index.js"
   },
