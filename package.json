@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified!\" && exit 1",
     "build": "ncc build src/index.js --license LICENSE -o v1.1",
-    "run": "node v1.1/index.js"
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
