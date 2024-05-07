@@ -6,6 +6,8 @@ jobs:
     steps:
     - name: Check Out
       uses: actions/checkout@v2
+    - name: install ncc
+      run: npm i -g @vercel/ncc
     - name: npm install
       run: npm install
     - name: show package.lock
