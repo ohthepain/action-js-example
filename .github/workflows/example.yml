@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Greet
-      uses: ohthepain/action-js-ts-example@v1.7
+      uses: ohthepain/action-js-ts-example@v1.9
       with:
         who-to-greet: 'Mona the Octocat'
