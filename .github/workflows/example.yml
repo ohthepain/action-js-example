@@ -6,9 +6,11 @@ jobs:
     steps:
     - name: Check Out
       uses: actions/checkout@v2
+    - name: npm install
+      run: npm install
     - name: Build
       run: npm run build
     - name: Greet
-      uses: ohthepain/action-js-ts-example@v1.10
+      uses: ohthepain/action-js-ts-example@v1.11
       with:
         who-to-greet: 'Mona the Octocat'
