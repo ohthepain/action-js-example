@@ -9,6 +9,6 @@ jobs:
     - name: Build
       run: npm run build
     - name: Greet
-      uses: ohthepain/action-js-ts-example@v1.9
+      uses: ohthepain/action-js-ts-example@v1.10
       with:
         who-to-greet: 'Mona the Octocat'
