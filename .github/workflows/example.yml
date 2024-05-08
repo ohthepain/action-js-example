@@ -10,13 +10,7 @@ jobs:
       run: npm i -g @vercel/ncc
     - name: npm install
       run: npm install
-    - name: show package.lock
-      run: cat package-lock.json
     - name: Does ncc exist
       run: which ncc
     - name: Build
       run: npm run build
-    - name: Greet
-      uses: ohthepain/action-js-ts-example@v1.14
-      with:
-        who-to-greet: 'Mona the Octocat'
