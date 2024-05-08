@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com:ohthepain/action-install-aws-cli"><img alt="GitHub Actions status" src="https://github.com/ohthepain/action-install-aws-cli/workflows/master%20builds/badge.svg"></a>
+  <a href="https://github.com:ohthepain/action-js-example"><img alt="GitHub Actions status" src="https://github.com/ohthepain/action-js-example/workflows/master%20builds/badge.svg"></a>
 </p>
 
 # action-js-example
