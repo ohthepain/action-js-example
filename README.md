@@ -29,9 +29,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
-        uses: ohthepain/action-js-example@v1.0
+        uses: ohthepain/action-js-example@main
         with:
-          who-to-greet: 'Mona Foo'
+          who-to-greet: 'Mona Bar'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
