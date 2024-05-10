@@ -1,16 +1,18 @@
-name: Example workflow for Example Action
+name: Test example action
+
 on: [push]
+
 jobs:
-  greet:
+  hello_world:
     runs-on: ubuntu-latest
+    name: A job to say hello
     steps:
-    - name: Check Out
-      uses: actions/checkout@v2
-    - name: install ncc
-      run: npm i -g @vercel/ncc
-    - name: npm install
-      run: npm install
-    - name: Does ncc exist
-      run: which ncc
-    - name: Build
-      run: npm run build
+      - uses: actions/checkout@v2
+      - name: Hello world action step
+        id: hello
+        uses: ohthepain/action-js-example@main
+        with:
+          who-to-greet: 'Mona Bar'
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
